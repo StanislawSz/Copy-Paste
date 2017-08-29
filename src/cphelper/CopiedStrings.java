@@ -24,10 +24,10 @@ public class CopiedStrings
     public CopiedStrings()
     {
         lista = new HashMap<>();
-//        lista.put(1, "ala");
-//        lista.put(2, "ma");
-//        lista.put(3, "mota");
-//        lista.put(4, "dupa");
+//        lista.put(1, "test1");
+//        lista.put(2, "test2");
+//        lista.put(3, "test3");
+//        lista.put(4, "test4");
     }
     
     public Map getList()
