@@ -1,6 +1,5 @@
 package cphelper;
 
-import java.awt.EventQueue;
 import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -20,6 +19,7 @@ public class Main implements NativeKeyListener
     private int offset = 0;
     private OknoPopUpTest frame = new OknoPopUpTest();
     private CopiedStrings copiedStrings = new CopiedStrings();
+    private TrayClass icon = new TrayClass(copiedStrings);
     
 
     /**
