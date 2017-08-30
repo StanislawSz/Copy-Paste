@@ -75,4 +75,9 @@ public class CopiedStrings
         clipboard.setContents(selection, selection);
         
     }
+    
+    public void clearList()
+    {
+        lista.clear();
+    }
 }
